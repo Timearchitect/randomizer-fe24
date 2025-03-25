@@ -1,5 +1,5 @@
 var fs = require('fs')
-const antalGrupper = 5
+const antalGrupper = 6
 
 fs.readFile('lista.json', 'utf8', function (err, data) {
     console.log(data)
@@ -17,13 +17,20 @@ fs.readFile('lista.json', 'utf8', function (err, data) {
     })
     console.log(array)
 
-    jsonObj = JSON.stringify(jsonObj)
+
     let grupperObject = {}
 
     for (let i = 0; i < antalGrupper; i++) {
         grupperObject['grupp' + (i+1)] = []
     }
 
+    for (let i = 0; i < array.length; i++) {
+        grupperObject['grupp' + (i%antalGrupper+1)].push( array[i]);
+        
+        //grupperObject['grupp' + (+1)].push( array[i]);
+        
+    }
+    jsonObj = JSON.stringify(grupperObject)
     console.log(grupperObject)
 
     fs.writeFile('grupper.json', jsonObj, function (err) {

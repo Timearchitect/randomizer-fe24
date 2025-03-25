@@ -1,1 +1,35 @@
-{"FE24":["My Roslund","Kevin Ruangrad","Adrian Tayeh","MEHDI HASSAN ZADEH","Thea Lindsjö","Ali Ismailat","Leon Den Engelsen","Matti Walli","Kimiya Masteri Farahani","Ida Lindkvist","Marcel Cios","Carl Gustaf Ludwig Vingren","Susanne DAHESH","Lareb Khalid","Linn Ahlrot Sahlén","Rabia Mehboob","Liibaan Abdulle","Lenson Rosvall Gonzalez ","Sylvester Kotey","Younes Rahomoussa","Hampus Svensson"]}
+{
+    "grupp1": [
+        "Kevin Ruangrad",
+        "Liibaan Abdulle",
+        "Lareb Khalid",
+        "Kimiya Masteri Farahani"
+    ],
+    "grupp2": [
+        "Linn Ahlrot Sahlén",
+        "Lenson Rosvall Gonzalez ",
+        "Hampus Svensson",
+        "Matti Walli"
+    ],
+    "grupp3": [
+        "Susanne DAHESH",
+        "MEHDI HASSAN ZADEH",
+        "Ali Ismailat",
+        "Ida Lindkvist"
+    ],
+    "grupp4": [
+        "My Roslund",
+        "Rabia Mehboob",
+        "Marcel Cios"
+    ],
+    "grupp5": [
+        "Thea Lindsjö",
+        "Younes Rahomoussa",
+        "Sylvester Kotey"
+    ],
+    "grupp6": [
+        "Carl Gustaf Ludwig Vingren",
+        "Leon Den Engelsen",
+        "Adrian Tayeh"
+    ]
+}
